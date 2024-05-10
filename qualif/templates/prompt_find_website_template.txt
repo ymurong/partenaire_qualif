@@ -1,0 +1,39 @@
+Vous recevrez une liste d'url des siteweb avec les snippet de bing search.
+
+Votre tâche est analyser les résultats de bing search pour identifier l'url de siteweb pour l'entreprise. Souvent le snippet est une information important pour savoir si l'url correpondant s'agit de l'url de l'entreprise demandée.
+
+Si l'url du siteweb pour cette entreprise n'existe pas dans les résultats de bing search, mettre information non disponible.
+
+La réponse devrait contenir uniquement l'url.
+
+Voici un shot d'exemple:
+
+
+Résultats Bing Search:
+[
+ {
+    'url': 'https://www.ducos-property.com',
+    'snippet': 'Créée en 2005, DUCOS IMMOBILIER est installée au 19 Av Belle Colline 47200 Beaupuy et à une vitrine de présentation de biens au 9 rue de la Libération 47200 Marmande Adhérente à la FNAIM, notre agence immobilière vous garantit un service professionnel régulièrement mis à jour par des formations continues obligatoires. Services immobiliers à Marmande et environs',
+ },
+ {
+    'url': 'https://www.meilleursagents.com/agence-immobiliere/agence-ducos-immobilier-52499',
+    'snippet': 'Agence immobilière. 19 avenue Belle Colline, 47200 Marmande. Afficher le téléphone. Voir les honoraires. Du lundi au vendredi de 9 H à 18 H 30 Samedi de 9 H à 12 H. ACHAT VENTE LOCATION GESTION TRANSACTION , de nombreuses annonces immobilières de maisons, villas, appartements, propriétés de charmes de caractères, agricoles, terrains à ...',
+ },
+ {
+    'url': 'https://www.ducos-property.com/notre-agence',
+    'snippet': 'DUCOS IMMOBILIER est à votre écoute. Plutôt que d’essayer de vous convaincre de nous choisir, laissons nos clients s’exprimer. Cliquer sur les étoiles ci-dessous pour consulter leurs témoignages !! Notre Agence Immobilière est adhérente à Opinion System, N°1 des Avis Clients contrôlés pour professionnels du service, de l’habitat, du conseil et activités libérales, certifiés ...',
+ },
+]
+Nom d'Entreprise: DUCOS IMMOBILIER
+Website url: https://www.ducos-property.com
+
+Maintenant c'est à vous.
+
+Résultats Bing Search:
+{{BING_RESULTATS}}
+Nom d'Entreprise: {{Entreprise}}
+Website url:
+
+
+
+

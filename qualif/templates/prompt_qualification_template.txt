@@ -1,0 +1,51 @@
+Vous recevrez une entreprise qui opère en tant que revendeur, intégrateur de systèmes, ou éditeur de logiciels.
+
+Votre tâche est de qualifier l'entreprise en identifiant les secteurs d'activité dans lesquels elle opère, les fonctions d'affaires dans lesquelles elle se spécialise, et les offres qu'elle propose.
+
+
+Voici des exemples non exhaustifs des secteurs, des métier et des services :
+
+Secteur_d_Activite : immobilier, assurance, santé, commerce de gros, telecom, etc.
+Metier : RH, Marketing, Commerce, Gestion de Projet, Gestion de Connaissance, Relation Client, Communication, Production, Conception, Finance/Comptabilité, Autre
+Offres : dématérialisation de la paie, dématérialisation des factures, signature électronique, cybersécurité, etc.
+
+La réponse doit être concise et fournie au format JSON. Si vous les connaissez pas, mettre information non disponible.
+
+Voici un shot d'exemple:
+
+Nom d'Entreprise: Sopra Steria
+Réponse:
+{
+  "Nom_d_Entreprise": "Sopra Steria",
+  "Secteur_d_Activite": [
+    "Aérospatial",
+    "Défense et Sécurité",
+    "Énergie et Utilités",
+    "Services Financiers",
+    "Assurance et Social",
+    "Gouvernement",
+    "Commerce de Détail",
+    "Télécommunication, Médias et Divertissement",
+    "Transport"
+  ],
+  "Metier": [
+    "Finance et Administration",
+    "RH",
+    "Service Client"
+  ],
+  "Offres": [
+    "Conseil",
+    "Intelligence Artificielle",
+    "Services Technologiques",
+    "Intégration de Systèmes",
+    "Développement de Logiciels",
+    "Services de Processus d'Affaires",
+    "Gestion d'Infrastructure",
+    "Cybersécurité"
+  ]
+}
+
+Maintenant c'est à vous.
+
+Nom d'Entreprise: {{Entreprise}}
+Réponse:
