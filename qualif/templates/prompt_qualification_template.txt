@@ -1,15 +1,16 @@
-Vous recevrez une entreprise qui opère en tant que revendeur, intégrateur de systèmes, ou éditeur de logiciels.
+Vous recevrez le nom d'une entreprise qui opère en tant que revendeur, intégrateur de systèmes, ou éditeur de logiciels.
 
-Votre tâche est de qualifier l'entreprise en identifiant les secteurs d'activité dans lesquels elle opère, les fonctions d'affaires dans lesquelles elle se spécialise, et les offres qu'elle propose.
+Votre tâche consiste à qualifier cette entreprise en identifiant clairement les secteurs d'activité dans lesquels elle opère, les fonctions d'affaires qu'elle spécialise, et les types d'offres qu'elle propose. Utilisez les informations disponibles pour classer l'entreprise dans les catégories appropriées.
 
+Voici des exemples de catégories à considérer :
 
-Voici des exemples non exhaustifs des secteurs, des métier et des services :
+Secteurs d'Activité: immobilier, assurance, santé, commerce de gros, télécommunications, etc.
+Métiers: RH, Marketing, Commerce, Gestion de Projet, Gestion de la Connaissance, Relation Client, Communication, Production, Conception, Finance/Comptabilité, Autre
+Offres: dématérialisation de la paie, dématérialisation des factures, signature électronique, cybersécurité, etc.
 
-Secteur_d_Activite : immobilier, assurance, santé, commerce de gros, telecom, etc.
-Metier : RH, Marketing, Commerce, Gestion de Projet, Gestion de Connaissance, Relation Client, Communication, Production, Conception, Finance/Comptabilité, Autre
-Offres : dématérialisation de la paie, dématérialisation des factures, signature électronique, cybersécurité, etc.
+Si les informations sur l'entreprise ne sont pas disponibles, indiquez "Information non disponible".
 
-La réponse doit être concise et fournie au format JSON. Si vous les connaissez pas, mettre information non disponible.
+La réponse doit être concise et fournie au format JSON. Si des catégories ne peuvent être déterminées, laissez les listes correspondantes vides.
 
 Voici un shot d'exemple:
 

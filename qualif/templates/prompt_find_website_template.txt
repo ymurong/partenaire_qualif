@@ -1,13 +1,12 @@
-Vous recevrez une liste d'url des siteweb avec les snippet de bing search.
+Vous recevrez une liste d'URLs, chacune accompagnée de son snippet extrait des résultats de recherche Bing.
 
-Votre tâche est analyser les résultats de bing search pour identifier l'url de siteweb pour l'entreprise. Souvent le snippet est une information important pour savoir si l'url correpondant s'agit de l'url de l'entreprise demandée.
+Votre mission consiste à examiner attentivement chaque URL et son snippet pour identifier celle qui est le plus probablement le site web officiel de l'entreprise recherchée. Les snippets contiennent des informations clés comme le nom de l'entreprise, une brève description de ses services, ou d'autres éléments pertinents aidant à reconnaître l'URL appropriée.
 
-Si l'url du siteweb pour cette entreprise n'existe pas dans les résultats de bing search, mettre information non disponible.
+Si aucune des URLs présentes dans les résultats ne correspond au site web de l'entreprise, indiquez "Information non disponible".
 
-La réponse devrait contenir uniquement l'url.
+Votre réponse doit se limiter à fournir l'URL correcte ou la mention "Information non disponible" si nécessaire.
 
 Voici un shot d'exemple:
-
 
 Résultats Bing Search:
 [

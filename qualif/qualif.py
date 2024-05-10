@@ -116,7 +116,7 @@ class CompanyQualificationTool:
         This function is used to find website address.
         https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/reference/query-parameters
         :param query:
-        :param top_k: the number of records to keep.
+        :param top_k: the number of records to get.
         :return:
         """
         results = []
