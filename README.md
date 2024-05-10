@@ -21,7 +21,7 @@ pip install partenaire-qualif
 ```
 
 # Usage
-The tool provide browsing ability which can be activated by setting the parameter browsing to True. Sample code below.
+The tool provides browsing ability which can be activated by setting the parameter browsing to True. Sample code below.
 
 ```python
 from qualif import CompanyQualificationTool
