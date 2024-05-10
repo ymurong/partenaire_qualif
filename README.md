@@ -6,6 +6,14 @@ A simple tool that automates the qualification of a partner(reseller/integrator/
 
 * It provides single mode and batch mode so that you can integrate as an API or in a scheduler easily.
 
+An example of qualification result:
+
+* (industry column) Target your industry
+* (job column) The jobs that can be targeted through their industry
+* (offers column) The services they offer.
+
+![alt text](samples/qualification_results_example.png)
+
 # Install
 
 ```bash
