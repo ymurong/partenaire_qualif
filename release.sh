@@ -6,7 +6,6 @@ NEW_VERSION=$1
 update_version() {
     # New version number passed as the first argument
 
-
     # Check if a new version was provided
     if [ -z "$NEW_VERSION" ]; then
       echo "Usage: update_version <new-version>"

@@ -1,1 +1,1 @@
-recursive-include qualif *.txt
+include qualif/templates/*.txt
