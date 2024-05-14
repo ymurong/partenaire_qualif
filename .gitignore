@@ -162,3 +162,4 @@ cython_debug/
 experimentation.ipynb
 *.xlsx
 .idea
+test/

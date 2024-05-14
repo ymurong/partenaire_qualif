@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="partenaire-qualif",
-    version='0.2.2',
+    version='0.2.3',
     author="Yanchao MURONG",
     author_email="yanchao.murong@gmail.com",
     description="A simple tool that automates the qualification of a partner(reseller/integrator/editor) by finding its website, industries, business functions and services.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ymurong/partenaire_qualif.git",
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(exclude=("test",)),
     package_data={
         "qualif.templates": ["*.txt"],
     },

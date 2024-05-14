@@ -202,7 +202,7 @@ class CompanyQualificationTool:
                 final_result["site_web"] = website_url
                 if web_content:
                     messages.append({
-                        "role": "assistant",
+                        "role": "system",
                         "content": f"Vous avez aussi le contenu scrapé du siteweb que vous pouvez utiliser pour constituer la réponse de la qualification. {web_content}"
                     })
 
