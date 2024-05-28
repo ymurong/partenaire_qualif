@@ -129,7 +129,8 @@ class CompanyQualificationTool:
         params = {
             'q': query,
             'count': top_k,
-            'responseFilter': 'Webpages'
+            'responseFilter': 'Webpages',
+            'mkt': 'fr-FR', # The market where the results come from. Typically, mkt is the country where the user is making the request from.
         }
 
         response = httpx.get(web_search_endpoint, headers=headers, params=params)
